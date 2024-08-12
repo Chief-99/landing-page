@@ -19,7 +19,7 @@ html, body {
 
 .header {
     background-color: #1F2937;
-    padding: 16px 450px 150px;
+    padding: 16px 375px 150px;
 }
 
 .header-ribbon,
@@ -79,4 +79,25 @@ ul li {
     margin-top: 24px;
     padding: 8px 16px;
     border-radius: 5px;
+}
+
+.hero-img {
+    display: flex;
+    background-color: gray;
+    width: 500px;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+                    /* ^ info section */
+
+.info {
+    padding: 24px 375px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
 }
