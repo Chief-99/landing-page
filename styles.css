@@ -15,11 +15,11 @@ html, body {
     font-weight: bold;
 }
 
-
+                    /* ^ colours and stuff */
 
 .header {
     background-color: #1F2937;
-    padding: 16px 200px;
+    padding: 16px 450px 200px;
 }
 
 .header-ribbon,
@@ -28,8 +28,10 @@ html, body {
 }
 
 .links, 
-.hero-secondary {
-    color: #E5E7Eb
+.hero-secondary,
+.hero-img {
+    color: #E5E7Eb;
+    font-size: 18px;
 }
 
 .hero-button {
@@ -37,7 +39,11 @@ html, body {
     color: #F9FAF8;
     font-size: 24px;
     border: none;
+    margin-top: 16px;
 }
+
+                    /* ^ header ribbon */
+
 
 .header-ribbon {
     display: flex;
@@ -54,4 +60,16 @@ ul li {
     list-style: none;
     display: inline;
     margin: 16px;
+}
+
+                    /* ^ hero section */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 500px;
 }
