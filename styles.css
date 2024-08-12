@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-ribbon,
+.hero-main {
+    color: #F9FAF8
+}
+
+.links, 
+.hero-secondary {
+    color: #E5E7Eb
+}
