@@ -19,6 +19,7 @@ html, body {
 
 .header {
     background-color: #1F2937;
+    padding: 16px 200px;
 }
 
 .header-ribbon,
@@ -36,4 +37,21 @@ html, body {
     color: #F9FAF8;
     font-size: 24px;
     border: none;
+}
+
+.header-ribbon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 16px;
 }
