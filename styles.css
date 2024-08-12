@@ -181,5 +181,8 @@ ul li {
                 /* ^ footer  */
 
 .footer {
-    
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 24px;
 }
