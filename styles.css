@@ -11,6 +11,12 @@ html, body {
 
 @font-face {
     font-family: roboto;
+    src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: roboto;
     src: url(fonts/Roboto/Roboto-Bold.ttf);
     font-weight: bold;
 }
@@ -120,4 +126,24 @@ ul li {
     border: solid 3px #3882F6;
     border-radius: 20px;
     margin-bottom: 16px;
+}
+
+
+                    /* ^ quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 60px 550px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
 }
