@@ -157,16 +157,29 @@ ul li {
     padding: 100px 375px;
 }
 .call-card {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 24px 64px;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 .call-button {
     background-color: #3882F6;
-    border: solid 3px #F9FAF8;
+    border: solid 2px #F9FAF8;
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+                /* ^ footer  */
+
+.footer {
+    
 }
