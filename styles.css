@@ -94,10 +94,30 @@ ul li {
                     /* ^ info section */
 
 .info {
-    padding: 24px 375px;
+    padding: 24px 375px 150px;
 }
 
 .info-header {
     text-align: center;
     font-size: 36px;
+    margin-bottom: 48px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-card {
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.box {
+    width: 175px;
+    height: 175px;
+    border: solid 3px #3882F6;
+    border-radius: 20px;
+    margin-bottom: 16px;
 }
