@@ -19,7 +19,7 @@ html, body {
 
 .header {
     background-color: #1F2937;
-    padding: 16px 450px 200px;
+    padding: 16px 450px 150px;
 }
 
 .header-ribbon,
@@ -32,14 +32,6 @@ html, body {
 .hero-img {
     color: #E5E7Eb;
     font-size: 18px;
-}
-
-.hero-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-size: 24px;
-    border: none;
-    margin-top: 16px;
 }
 
                     /* ^ header ribbon */
@@ -70,6 +62,21 @@ ul li {
     align-items: center;
 }
 
+.hero-main {
+    font-size: 48px;
+}
+
 .hero-text {
-    width: 500px;
+    width: 450px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 24px;
+    border: none;
+    font-size: 18px;
+    margin-top: 24px;
+    padding: 8px 16px;
+    border-radius: 5px;
 }
